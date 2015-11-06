@@ -1,4 +1,3 @@
-#!/usr/local/bin/babel-node
 
 export function parse (array) {
   let args = {env: array.shift(), file: array.shift(),  list: []};
